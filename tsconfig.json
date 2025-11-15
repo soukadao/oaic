@@ -1,0 +1,18 @@
+{
+  // https://www.typescriptlang.org/tsconfig
+  "compilerOptions": {
+    // Strict mode
+    "strict": true,
+    // Root directory
+    "rootDir": "src",
+    // Output directory
+    "outDir": "dist",
+    // Target
+    "target": "esnext",
+    // Module system
+    "module": "esnext",
+    "moduleResolution": "bundler"
+  },
+  "include": ["src"],
+  "exclude": ["src/tests"]
+}
